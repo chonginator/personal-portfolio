@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a14978cbf1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"></style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <a href="#" id="logo">Ben C</a>
+      <nav id="navbar">
+        <ul>
+          <a href="#"><li class="nav-link">Home</li></a>
+          <a href="#portfolio-anchor"><li class="nav-link">Portfolio</li></a>
+          <a href="http://minimalistdev.net/blog/" target="_blank"><li class="nav-link">Blog</li></a>
+          <a href="#contact-anchor"><li class="nav-link">Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <!-- WELCOME SECTION -->
+    <section id="welcome-section">
+      <div class="typewriter">
+        <h1>Hi, I'm Ben</h1>
+      </div>
+      <h2>An aspiring front-end developer</h2>
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <a id="portfolio-anchor" class="anchor"></a>
+      <h2 class="section-header">Some of my work</h2>
+      <div id="project-gallery">
+        <!-- Display three at a time -->
+        <div class="project-tile">
+          <a href="https://codepen.io/tiddlemonkey/full/vYLOwVx" target="_blank">
+            <img src="https://www.dropbox.com/s/ujydl1dgzwqgsdy/codepen.io_tiddlemonkey_full_vYLOwVx.png?raw=1" alt="project" class="project-thumbnail">
+            <div class="project-overlay">
+              Technical Documentation Page
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a href="https://codepen.io/tiddlemonkey/full/ExVBjWQ" target="_blank">
+            <img src="https://www.dropbox.com/s/lfntbida2n98wku/codepen.io_tiddlemonkey_full_ExVBjWQ.png?raw=1" alt="project" class="project-thumbnail">
+            <div class="project-overlay">
+              Product Landing Page
+            </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a href="https://codepen.io/tiddlemonkey/full/YzydQbM" target="_blank">
+            <img src="https://www.dropbox.com/s/gua0ibdx22uzls4/codepen.io_tiddlemonkey_full_YzydQbM.png?raw=1" alt="project" class="project-thumbnail">
+            <div class="project-overlay">
+              Survey Form
+            </div>
+          </a>
+        </div>
+        <!--
+        <div class="project-tile">
+          <a href="https://codepen.io/tiddlemonkey/full/PoPdaJg" target="_blank">
+             <img     src="https://www.dropbox.com/s/qlq2djava1idl0z/codepen.io_tiddlemonkey_full_PoPdaJg.png?raw=1">
+          </a>
+        </div>
+        -->
+      </div>
+      <a class="btn" href="https://codepen.io/tiddlemonkey" target="_blank">
+        <p>See more</p>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <a id="contact-anchor" class="anchor"></a>
+      <h3 class="section-subheader">Like what you see?</h3>
+      <h2 class="section-header">Let's get to work</h2>
+      <form>
+        <div class="info-container">
+          <div class="survey-form-group">
+            <label for="name-label">
+              <p>Name:</p>
+              <input type="text" id="name-input" name="name" class="form-control" placeholder="Enter your name..." required>
+            </label>
+          </div>
+          <div class="survey-form-group">
+            <label for="email-label">
+            <p>Email:</p>
+            <input type="text" id="email-input" name="email" class="form-control" placeholder="Enter your email..." required>
+            </label>
+          </div>
+        </div>
+        <div class="survey-form-group">
+          <label for="message-label">
+            <p>Message:</p>
+            <textarea id="message-input" name="message" class="form-control" placeholder="Hello world!" rows=5 cols=50 required></textarea>
+          </label>
+        </div>
+        <div class="survey-form-group">
+          <button type="submit" id="submit" class="btn">
+            <p>Submit</p>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </form>
+    </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="copyright">
+        <p>© 2020 Ben Chong</p>
+      </div>
+      <div class="social-media">
+        <div class="profile">
+          <a href="https://github.com/chonginator" target="_blank" id="profile-link" class="profile-link"><i class="fab fa-github profile-link-icon"></i></a>
+        </div>
+        <div class="profile">
+          <a href="https://www.linkedin.com/in/benhuiyuanchong/" target="_blank" class="profile-link"><i class="fab fa-linkedin profile-link-icon"></i></a>
+        </div>
+        <div class="profile">
+          <a href="https://twitter.com/BenTiddles1999" target="_blank" class="profile-link"><i class="fab fa-twitter profile-link-icon"></i></a>
+        </div>
+        <div class="profile">
+          <a href="https://codepen.io/tiddlemonkey" target="_blank" class="profile-link"><i class="fab fa-codepen profile-link-icon"></i></a>
+        </div>
+        <div class="profile">
+          <a href="https://www.freecodecamp.org/tiddlemonkey" target="_blank" class="profile-link"><i class="fab fa-free-code-camp profile-link-icon"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
